@@ -1,0 +1,20 @@
+
+
+
+
+1) login to mysql:
+
+Commands Links:
+https://www.pantz.org/software/mysql/mysqlcommands.html
+
+sudo mysql -u root -p
+
+pw
+
+
+2) USE bluehunterapp;
+
+
+CREATE pharamacies tables
+
+CREATE TABLE pharmacies (id INT(11) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(300), address VARCHAR(300), rate INT(5), drug VARCHAR(300), created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);

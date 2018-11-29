@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+   <h1>Pharmacies</h1>
+   <ul class="list-group">
+     {% for pharmacy in pharmacies %}
+       <li class="list-group-item"><a href="pharmacie/{{pharmacy.id}}">{{pharmacy.name}}</a></li>
+      {% endfor %}
+    </ul>
+{% endblock %}
